@@ -1,4 +1,5 @@
 import Link from "next/link";
+import ClientComponent from "@/components/ClientComponent";
 
 export default function Home() {
   return (
@@ -6,6 +7,8 @@ export default function Home() {
       <Link href="/test">Test</Link>
       <Link href="/form">Form</Link>
       <Link href="/products">Products</Link>
+
+      <ClientComponent />
     </main>
   );
 }
